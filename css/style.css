@@ -1,3 +1,90 @@
-body {
-    background-color: lightblue;
-  }
+body{
+    background-color:lightgray;
+}
+
+.header{
+  
+    display:flex;
+    margin:auto;
+    padding:auto;
+}
+div{
+    padding:-10px;
+}
+.search{
+    
+    margin: 45px 306px;
+}
+ h1{
+    color:#04AA6D;
+    padding:7px;
+    margin: 20px 100px;
+    text-shadow: 10px 10px 10px green;
+ }
+li {
+    text-decoration: none;
+    text-transform:uppercase;
+    margin: 0px 30px;
+    padding:5px;
+    display:inline;
+
+       
+}
+nav {
+    padding: 2px;
+    background: #04AA6D;
+
+   
+}
+.article{
+    margin:10px;
+}
+#sign-up{
+    margin:15px;
+}
+.details {
+    
+ width: 300px; /* Set the desired width for the container */
+margin: 0; /* Center the container horizontally */
+            /* Align the content inside the container to the center */
+}
+
+h2 {
+color: #333; /* Set the color for the heading */
+}
+
+label {
+display:inline-block; /* Display each label on a new line */
+margin-top: 10px; /* Add spacing between labels */
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+select {
+width: 100%; /* Make the input and select elements fill the entire width */
+padding: 5px; /* Add padding for visual spacing */
+margin-bottom: 10px; /* Add spacing between inputs */
+}
+
+button.button {
+background-color: blue; /* Set the background color for the button */
+color: #fff; /* Set the text color for the button */
+border: none; /* Remove the button border */
+padding: 10px 20px; /* Add padding for visual spacing */
+cursor: pointer; /* Add a cursor pointer on hover */
+}  
+.container {
+margin:10px;
+border-style: solid;
+display: flex;
+}
+
+.column {
+flex: 1;
+padding: 10px;
+}
+.footer{
+padding:5px;
+text-align:center;
+}
